@@ -151,21 +151,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Column sample-->
-                    <div class="col-md-6 col-lg-3 col-xlg-3">
-                        <div class="card card-info card-inverse">
-                            <div class="box text-center">
-                                <h1 class="font-light text-white">
-                                             <?php 
-                                                    $this->db->where('em_role','EMPLOYEE');
-                                                    $this->db->from("employee");
-                                                    echo $this->db->count_all_results();
-                                                ?> 
-                                </h1>
-                                <h6 class="text-white">Total of Employees</h6>
-                            </div>
-                        </div>
-                    </div>
                     <!-- Column -->
                     <div class="col-md-6 col-lg-3 col-xlg-3">
                         <div class="card card-inverse card-danger">
